@@ -1,0 +1,35 @@
+{
+  "name": "file-leone-cli",
+  "version": "1.0.0",
+  "description": "Proyecto cli para generar ficheros",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leone2016/cli.git"
+  },
+  "keywords": [
+    "rb",
+    "js",
+    "ts",
+    "kt",
+    "java",
+    "cli generator",
+    "crear fichero"
+  ],
+  "author": "Leonardo Medina E. <leoz.31@hotmail.com> (www.leonardomedina.com.ec)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leone2016/cli/issues"
+  },
+  "homepage": "https://github.com/leone2016/cli#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.4",
+    "shelljs": "^0.8.3"
+  },
+  "bin": "./index.js"
+}
